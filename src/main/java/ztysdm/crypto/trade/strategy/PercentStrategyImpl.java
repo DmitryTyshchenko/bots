@@ -9,13 +9,13 @@ import java.util.concurrent.TimeUnit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ztysdm.crypto.trade.bianance.StockExchangeGateway;
 import ztysdm.crypto.trade.config.MongoConfiguration;
 import ztysdm.crypto.trade.model.Order;
 import ztysdm.crypto.trade.model.OrderStatus;
 import ztysdm.crypto.trade.model.OrderType;
 import ztysdm.crypto.trade.model.TradeData;
 import ztysdm.crypto.trade.model.TradePair;
+import ztysdm.crypto.trade.stackexchange.StockExchangeGateway;
 import ztysdm.crypto.trade.util.MathUtils;
 
 public class PercentStrategyImpl implements TradeStrategy {
